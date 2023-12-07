@@ -1,6 +1,7 @@
 import bgImage from "../../../assets/images/bg-header.png";
 import blobBg from "../../../assets/images/blob-bg2.png";
 import proPic from "../../../assets/images/propic2.png";
+import SkillMarquee from "../../../components/Shared/SkillMarquee/SkillMarquee";
 const Header = () => {
   return (
     <>
@@ -10,6 +11,9 @@ const Header = () => {
           backgroundImage: `url(${bgImage})`,
         }}
       >
+        <div className="pt-32">
+          <SkillMarquee />
+        </div>
         <div className="py-36 mx-28">
           <div className="flex flex-col md:flex-row md:justify-between">
             <div className="m-8 flex-initial w-1/2 text-center">
