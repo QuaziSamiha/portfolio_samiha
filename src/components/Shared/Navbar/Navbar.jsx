@@ -1,3 +1,6 @@
+import { FaUserGraduate } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
@@ -6,7 +9,7 @@ const Navbar = () => {
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col">
             {/* Navbar */}
-            <div className="w-full navbar  bg-opacity-30 fixed z-10">
+            <div className="w-full navbar h-8 bg-[#9452b0] bg-opacity-20 fixed z-10">
               <div className="flex-none lg:hidden">
                 <label
                   htmlFor="my-drawer-3"
@@ -28,18 +31,20 @@ const Navbar = () => {
                   </svg>
                 </label>
               </div>
-              <div className="flex-1 px-2 mx-2">Navbar Title</div>
-              <div className="flex-none hidden lg:block">
+              <div className="flex-1 px-2 mx-2">
+                <FaUserGraduate className="h-10 w-10 text-[#9452b0] ml-12" />
+              </div>
+              <div className="flex-none font-medium hidden lg:block mr-12">
                 <ul className="menu menu-horizontal">
                   {/* Navbar menu content here */}
                   <li className="text-[#880088]">
-                    <a>Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <a>My Projects</a>
+                    <Link to="/projects">My Projects</Link>
                   </li>
                   <li>
-                    <a>Contact</a>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -55,14 +60,14 @@ const Navbar = () => {
             ></label>
             <ul className="menu p-4 w-80 min-h-full bg-base-200">
               {/* Sidebar content here */}
-              <li>
-                <a>Home</a>
+              <li className="text-[#880088]">
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a>My Projects</a>
+                <Link to="/projects">My Projects</Link>
               </li>
               <li>
-                <a>Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>

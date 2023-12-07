@@ -1,9 +1,13 @@
 import AboutRight from "./AboutRight";
 import proPic from "../../../assets/images/propic-prize.jpg";
+import bg from "../../../assets/images/bg-2.png";
 const About = () => {
   return (
     <>
-      <section className="my-40 pb-20 border-b h-fit shadow-sm">
+      <section
+        className="my-40 pb-20 border-b h-fit shadow-lg bg-opacity-60"
+        style={{ backgroundImage: `url(${bg})` }}
+      >
         <div className="text-center py-12">
           <h1 className="text-3xl font-bold text-[#880088]">Profile</h1>
           <h2 className="mt-4 text-[#9452b0] font-semibold text-xl">
