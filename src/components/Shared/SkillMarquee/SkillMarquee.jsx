@@ -1,7 +1,32 @@
-import { FaGithub, FaJava, FaNodeJs, FaReact } from "react-icons/fa";
+import {
+  FaBootstrap,
+  FaCss3,
+  FaGitAlt,
+  FaGithub,
+  FaGithubSquare,
+  FaHtml5,
+  FaJava,
+  FaKaggle,
+  FaLinux,
+  FaNodeJs,
+  FaPython,
+  FaReact,
+  FaSass,
+} from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiTailwindcss } from "react-icons/si";
+import { TbBrandJavascript, TbBrandMysql, TbBrandNextjs } from "react-icons/tb";
+import {
+  SiCisco,
+  SiExpress,
+  SiFirebase,
+  SiLatex,
+  SiPostman,
+  SiTailwindcss,
+  SiTypescript,
+  SiVercel,
+  SiVisualstudiocode,
+  SiXampp,
+} from "react-icons/si";
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 
@@ -9,13 +34,13 @@ const SkillMarquee = () => {
   const skills = [
     {
       name: "JavaScript",
-      icon: <FaJava />,
-      color: "#e7473c",
+      icon: <TbBrandJavascript />,
+      color: "#1b1b1b",
     },
     {
       name: "TypeScript",
-      icon: <FaJava />,
-      color: "#e7473c",
+      icon: <SiTypescript />,
+      color: "#3178c6",
     },
     {
       name: "Java",
@@ -24,32 +49,32 @@ const SkillMarquee = () => {
     },
     {
       name: "C++",
-      icon: <FaJava />,
+      icon: "",
       color: "",
     },
     {
       name: "C",
-      icon: <FaJava />,
+      icon: "",
       color: "",
     },
     {
       name: "Python",
-      icon: <FaJava />,
-      color: "",
+      icon: <FaPython />,
+      color: "#ffdd54",
     },
     {
       name: "HTML",
-      icon: <FaJava />,
+      icon: <FaHtml5 />,
       color: "",
     },
     {
       name: "CSS",
-      icon: <FaJava />,
+      icon: <FaCss3 />,
       color: "",
     },
     {
       name: "SASS",
-      icon: <FaJava />,
+      icon: <FaSass />,
       color: "",
     },
     {
@@ -69,18 +94,18 @@ const SkillMarquee = () => {
     },
     {
       name: "Express JS",
-      icon: "",
+      icon: <SiExpress />,
       color: "",
     },
     {
       name: "Tailwind CSS",
       icon: <SiTailwindcss />,
-      color: "",
+      color: "#38bdf8",
     },
     {
       name: "Bootstrap",
-      icon: <FaJava />,
-      color: "#38bdf8",
+      icon: <FaBootstrap />,
+      color: "#7010f4",
     },
     {
       name: "Mongo DB",
@@ -89,73 +114,78 @@ const SkillMarquee = () => {
     },
     {
       name: "Material UI",
-      icon: <FaJava />,
-      color: "",
+      icon: "",
+      color: "#4caaf9",
     },
     {
       name: "React Bootstrap",
-      icon: <FaJava />,
-      color: "",
+      icon: "",
+      color: "#41e0fd",
     },
     {
       name: "Daisy UI",
-      icon: <FaJava />,
+      icon: "",
       color: "",
     },
     {
       name: "Firebase",
-      icon: <FaJava />,
-      color: "",
+      icon: <SiFirebase />,
+      color: "#ffcb2e",
     },
     {
       name: "Vercel",
-      icon: <FaJava />,
-      color: "",
+      icon: <SiVercel />,
+      color: "#000000",
     },
     {
       name: "Linux",
-      icon: <FaJava />,
-      color: "",
+      icon: <FaLinux />,
+      color: "#7010f4",
     },
     {
       name: "Cisco Packet Tracer",
-      icon: <FaJava />,
+      icon: <SiCisco />,
       color: "",
     },
     {
       name: "Latex",
-      icon: <FaJava />,
-      color: "",
+      icon: <SiLatex />,
+      color: "#008080",
     },
     {
       name: "Kaggle",
-      icon: <FaJava />,
-      color: "",
+      icon: <FaKaggle />,
+      color: "#20beff",
     },
     {
       name: "MySQL",
-      icon: <FaJava />,
-      color: "",
+      icon: <TbBrandMysql />,
+      color: "#3e6e93",
     },
     {
       name: "Git",
-      icon: <FaJava />,
-      color: "",
+      icon: <FaGitAlt />,
+      color: "#f54d27",
     },
     {
       name: "Github",
-      icon: <FaJava />,
-      color: "",
+      icon: <FaGithubSquare />,
+      color: "#24292e",
     },
     {
       name: "XAMPP",
-      icon: <FaJava />,
-      color: "",
+      icon: <SiXampp />,
+      color: "#fb7a24",
     },
     {
-      name: "Code Studio",
-      icon: <FaJava />,
-      color: "",
+      name: "Visual Studio Code",
+      icon: <SiVisualstudiocode />,
+      color: "#23a8f2",
+    },
+    {
+      name: "Postman",
+      icon: <SiPostman />,
+      color: "#ff6c37",
     },
   ];
   return (
