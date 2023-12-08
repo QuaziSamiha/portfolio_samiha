@@ -32,10 +32,10 @@ const Header = () => {
                 </h2>
               </div>
               <div className="my-6 ">
-                <button className="bg-[#9452b0] skeleton w-36 text-lg font-bold  text-white py-4 rounded-md mr-2">
+                <button className="bg-[#9452b0] hover:text-[#9452b0] hover:border border-[#9452b0] hover:skeleton w-36 text-lg font-bold  text-white py-4 rounded-md mr-2">
                   Get Resume
                 </button>
-                <button className="bg-[#cb1f7b] skeleton w-36 text-lg font-bold text-white px-6 py-4 rounded-md ml-2">
+                <button className="bg-[#ff156d] hover:text-[#ff156d] hover:border border-[#ff156d] hover:skeleton w-36 text-lg font-bold text-white px-6 py-4 rounded-md ml-2">
                   Find CV
                 </button>
               </div>
