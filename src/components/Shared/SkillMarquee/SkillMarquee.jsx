@@ -193,7 +193,7 @@ const SkillMarquee = () => {
       <section className="mx-20 flex">
         <div className="w-1/12">
           <Link className="">
-            <div className="flex justify-evenly skeleton py-2 px-3 items-center bg-[#9452b0] text-white rounded-md">
+            <div className="flex justify-evenly skeleton py-2 px-3 items-center bg-[#92e3a9] text-[#263238] rounded-md">
               <FaGithub className="" />
               <p className="ml-2 font-bold">Github</p>
             </div>

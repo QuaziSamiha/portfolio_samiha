@@ -1,10 +1,14 @@
 const Footer = () => {
+  const date = new Date();
+  const year = date.getFullYear();
   return (
     <>
       <section>
-        <footer className="footer footer-center p-4 bg-[#880088] text-white">
+        <footer className="footer footer-center p-4 bg-[#92e3a9] text-[#497255] font-medium">
           <aside>
-            <p>Copyright © 2023 - All right reserved by Quazi Samiha Tasnim</p>
+            <p>
+              Copyright © {year} - All right reserved by Quazi Samiha Tasnim
+            </p>
           </aside>
         </footer>
       </section>
