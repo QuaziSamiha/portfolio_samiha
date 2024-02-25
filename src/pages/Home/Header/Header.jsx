@@ -21,23 +21,23 @@ const Header = () => {
               <div>
                 <h1 className="text-3xl pt-10 ">
                   <span className="text-[#]">
-                    <span className="text-[#] pr-2">
-                     Hello!
-                    </span>
+                    <span className="text-[#] pr-2">Hello!</span>
                     I&apos;m
                   </span>
                   <span className="text-[#] pl-2 font-bold">Samiha...</span>
                 </h1>
-                <p className="text-2xl mt-3"><span className="font-bold">JavaScript</span> Developer</p>
+                <p className="text-2xl mt-3">
+                  <span className="font-bold">JavaScript</span> Developer
+                </p>
                 <h2 className="text-2xl text-[#] font-bold pt-4">
-                  Crafting Tomorrow&apos;s Tech Stories 
+                  Crafting Tomorrow&apos;s Tech Stories
                 </h2>
               </div>
               <div className="my-6 ">
-                <button className="bg-[#9452b0] hover:text-[#9452b0] hover:border border-[#9452b0] hover:skeleton w-36 text-lg font-bold  text-white py-3 rounded-md mr-2">
+                <button className="bg-[#92e3a9] hover:text-[#263238] hover:border border-[#497255] hover:skeleton w-36 text-lg font-bold  text-[#263238] py-3 rounded-md mr-2">
                   Get Resume
                 </button>
-                <button className="bg-[#ff156d] hover:text-[#ff156d] hover:border border-[#ff156d] hover:skeleton w-36 text-lg font-bold text-white px-6 py-3 rounded-md ml-2">
+                <button className="bg-[#92e3a9] hover:text-[#263238] hover:border border-[#497255] hover:skeleton w-36 text-lg font-bold text-[#263238] px-6 py-3 rounded-md ml-2">
                   Find CV
                 </button>
               </div>
