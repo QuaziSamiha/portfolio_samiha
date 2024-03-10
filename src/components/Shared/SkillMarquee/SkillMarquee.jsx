@@ -192,12 +192,18 @@ const SkillMarquee = () => {
     <>
       <section className="mx-20 flex">
         <div className="w-1/12">
-          <Link to={`https://github.com/QuaziSamiha`} className="">
+          {" "}
+          <a
+            href="https://github.com/QuaziSamiha"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=""
+          >
             <div className="flex justify-evenly skeleton py-2 px-3 items-center bg-[#92e3a9] text-[#263238] rounded-md">
               <FaGithub className="" />
               <p className="ml-2 font-bold">Github</p>
             </div>
-          </Link>
+          </a>
         </div>
         <div className="w-11/12 ml-3 bg-white">
           <div className="py-2">
