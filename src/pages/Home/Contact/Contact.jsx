@@ -1,5 +1,5 @@
 import { ParallaxBanner } from "react-scroll-parallax";
-import bg from "../../../assets/images/Coding-cuate.png";
+import bg from "../../../assets/images/website-amico.png";
 import EmailForm from "./EmailForm";
 const Contact = () => {
   //   console.log("checking....");
@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="text-start lg:text-center text-[#263238] uppercase">
               <h1 className="font-bold text-3xl pb-4">reach me here</h1>
             </div>
-            <div className="flex justify-evenly items-center">
+            <div className="flex justify-evenly items-center my-16">
               <EmailForm />
             </div>
           </div>

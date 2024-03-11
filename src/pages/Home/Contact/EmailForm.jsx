@@ -25,15 +25,41 @@ const EmailForm = () => {
   };
 
   return (
-    <div className="">
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" /> <br />
-        <label>Email</label>
-        <input type="email" name="user_email" /> <br />
-        <label>Message</label>
-        <textarea name="message" /> <br />
-        <input type="submit" value="Send" />
+    <div className="bg-[#263238] bg-opacity-70 w-96">
+      <h1 className="text-center font-semibold text-white text-base tracking-wide uppercase mt-6">
+        Let&apos;s build something great together
+      </h1>
+      <form ref={form} onSubmit={sendEmail} className="p-6">
+        <div className="form-control ">
+          <input
+            type="text"
+            name="user_name"
+            placeholder="Your Name..."
+            className="p-2 text-sm rounded bg-[#263238] text-[#92e3a9] my-2"
+          />
+        </div>
+        <div className="form-control">
+          <input
+            type="email"
+            name="user_email"
+            placeholder="Your Email..."
+            className="p-2 text-sm rounded bg-[#263238] text-[#92e3a9] my-2"
+          />
+        </div>
+        <div className="form-control">
+          <textarea
+            name="message"
+            placeholder="Write Message Here..."
+            className="rounded p-2 text-sm bg-[#263238] text-[#92e3a9] h-24 my-2"
+          />
+        </div>
+        <div className="form-control mt-2">
+          <input
+            type="submit"
+            value="Send"
+            className="py-2 rounded font-semibold bg-[#92e3a9]"
+          />
+        </div>
       </form>
     </div>
   );
