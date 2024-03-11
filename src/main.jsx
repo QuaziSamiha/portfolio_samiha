@@ -6,7 +6,7 @@ import router from "./routes/Route";
 import { ParallaxProvider } from "react-scroll-parallax";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <div className="mx-24">
+  <div className="mx-6 lg:mx-24 bg-[#dff7e5]">
     <React.StrictMode>
       <ParallaxProvider>
         <RouterProvider router={router} />
