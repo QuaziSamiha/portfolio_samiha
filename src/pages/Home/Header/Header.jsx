@@ -1,21 +1,13 @@
-// import bgImage from "../../../assets/images/bg-header.png";
-// import blobBg from "../../../assets/images/blob-bg2.png";
-// import proPic from "../../../assets/images/propic2.png";
 import proPic from "../../../assets/images/Coding-cuate.png";
 import SkillMarquee from "../../../components/Shared/SkillMarquee/SkillMarquee";
 const Header = () => {
   return (
     <>
-      <section
-        className="min-h-screen bg-[#dff7e5]"
-        // style={{
-        //   backgroundImage: `url(${bgImage})`,
-        // }}
-      >
+      <section className="min-h-screen bg-[#dff7e5]">
         <div className="pt-16">
           <SkillMarquee />
         </div>
-        <div className="py-36 mx-16">
+        <div className="py-36 lg:mx-16">
           <div className="flex flex-col md:flex-row-reverse md:justify-between">
             <div className="m-8 flex-initial w-1/2 text-start text-[#263238] pl-16">
               <div>
@@ -43,7 +35,6 @@ const Header = () => {
               </div>
             </div>
             <div className="">
-              {/* <img className="w-[650px] h-[450px]" src={blobBg} alt="" /> */}
               <div className="-mt-[30px] pl-8">
                 <img className=" w-[380px] h-[380px]" src={proPic} alt="" />
               </div>
