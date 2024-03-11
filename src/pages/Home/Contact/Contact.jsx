@@ -1,6 +1,7 @@
 import { ParallaxBanner } from "react-scroll-parallax";
 import bg from "../../../assets/images/website-amico.png";
 import EmailForm from "./EmailForm";
+import SocialMedia from "./SocialMedia";
 const Contact = () => {
   //   console.log("checking....");
   return (
@@ -15,6 +16,7 @@ const Contact = () => {
               <h1 className="font-bold text-3xl pb-4">reach me here</h1>
             </div>
             <div className="flex justify-evenly items-center my-16">
+              <SocialMedia />
               <EmailForm />
             </div>
           </div>

@@ -25,7 +25,7 @@ const EmailForm = () => {
   };
 
   return (
-    <div className="bg-[#263238] bg-opacity-70 w-96">
+    <div className="bg-[#263238] bg-opacity-70 w-96 mx-12">
       <h1 className="text-center font-semibold text-white text-base tracking-wide uppercase mt-6">
         Let&apos;s build something great together
       </h1>
